@@ -21,9 +21,11 @@ public class Demo1 {
         System.out.println(str);
 
         System.out.print("Enter your name:");
-        int name2 = scanner.nextInt();
-        String str2 = name+"";
-        System.out.println(str2.length());
+        String name2 = scanner.nextLine();
+        String name3 = name2.substring(3);
+        System.out.println(name3);
+        int myBool = Integer.valueOf(name3);
+        System.out.println(myBool);
 
 
     }
